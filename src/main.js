@@ -3,10 +3,6 @@ import init from "./init.js";
 import TWEEN from "three/examples/jsm/libs/tween.module.js";
 
 const { scene, canvas, sizes, camera, renderer, controls } = init();
-const cursor = {
-    x: 0,
-    y: 0,
-};
 
 camera.position.z = 10;
 
